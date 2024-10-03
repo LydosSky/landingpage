@@ -143,6 +143,10 @@ button {
   font-weight: lighter;
   font-style: italic;
 }
+
+.section-three div {
+  padding: 64px;
+}
 /* ************************************ */
 
 /* ********** SECTION FOUR  ********** */
