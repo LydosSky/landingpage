@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+/* Reset for padding and margin */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,7 +9,16 @@
 
 body {
   font-family: "Roboto", system-ui;
-  height: 100vh;
+}
+
+button {
+  background-color: #3882f6;
+  color: #ffffff;
+  padding: 4px 16px;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 35px;
 }
 
 .header,
@@ -17,6 +27,19 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #1f2937;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+  padding: 16px 20%;
+}
+
+/* ********** HEADER ********** */
+
+.header {
+  padding: 4px 20%;
 }
 
 .header p,
@@ -43,7 +66,9 @@ body {
 .header ul a {
   text-decoration: none;
 }
+/* **************************** */
 
+/* ********** SECTION ONE ********** */
 .section-one h1 {
   font-size: 48px;
 }
@@ -68,41 +93,41 @@ body {
   margin-top: 16px;
 }
 
-button {
-  background-color: #3882f6;
-  color: #ffffff;
-  padding: 4px 16px;
-  border: none;
-  border-radius: 4px;
-  width: 100px;
-  height: 35px;
-}
+/* ********************************** */
 
+/* ********** SECTION TWO ********** */
 .section-two {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
+  margin-top: 16px;
+  margin-bottom: 48px;
 }
 
 .section-two h2 {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  margin-bottom: 32px;
 }
 
 .cards {
   display: flex;
   text-align: center;
+  gap: 15px;
 }
 
 .cards img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border: 4px solid #3882f6;
   border-radius: 12px;
 }
+/* ********************************** */
+
+/* ********** SECTTION THREE ********** */
 
 .section-three {
   background-color: #e5e7eb;
@@ -118,7 +143,9 @@ button {
   font-weight: lighter;
   font-style: italic;
 }
+/* ************************************ */
 
+/* ********** SECTION FOUR  ********** */
 .section-four {
   display: flex;
   justify-content: center;
@@ -139,7 +166,9 @@ button {
   flex-shrink: 0;
   flex-basis: auto;
 }
+/* ********************************** */
 
+/* ********** FOOTER ********** */
 .footer {
   text-align: center;
   background-color: #1f2937;
@@ -147,14 +176,4 @@ button {
   padding: 16px;
   justify-self: end;
 }
-
-.section-one,
-.section-two,
-.section-three,
-.section-four {
-  padding: 16px 20%;
-}
-
-.header {
-  padding: 4px 20%;
-}
+/* *************************** */
