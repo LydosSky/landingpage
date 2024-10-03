@@ -154,6 +154,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .action-card {
@@ -162,6 +164,8 @@ button {
   padding: 16px;
   border-radius: 12px;
   display: flex;
+  gap: 64px;
+  padding: 32px 96px;
 }
 
 .action-button {
